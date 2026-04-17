@@ -15,5 +15,8 @@
 .gallery {
   width: 25vw;
   height: 35vh;
-  margin: 2vh auto;
 }
+
+div:has(.gallery) {
+  margin: 2vh 3vw;
+  }
